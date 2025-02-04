@@ -13,19 +13,19 @@ class Libri extends Component {
     return (
       <>
         <Container fluid>
-          <Button variant="btn-success" onClick={() => this.setState({ books: fantasy })}>
+          <Button variant="success" onClick={() => this.setState({ books: fantasy })}>
             Fantasy
           </Button>
-          <Button variant="btn-danger" onClick={() => this.setState({ books: horror })}>
+          <Button variant="danger" onClick={() => this.setState({ books: horror })}>
             Horror
           </Button>
-          <Button variant="btn-info" onClick={() => this.setState({ books: romance })}>
+          <Button variant="info" onClick={() => this.setState({ books: romance })}>
             Romance
           </Button>
-          <Button variant="btn-dark" onClick={() => this.setState({ books: history })}>
+          <Button variant="dark" onClick={() => this.setState({ books: history })}>
             History
           </Button>
-          <Button variant="btn-warning" onClick={() => this.setState({ books: scifi })}>
+          <Button variant="warning" onClick={() => this.setState({ books: scifi })}>
             Scifi
           </Button>
         </Container>
