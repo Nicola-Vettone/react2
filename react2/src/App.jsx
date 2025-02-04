@@ -1,9 +1,9 @@
 import { Container } from "react-bootstrap";
 import "./App.css";
-import Libri from "./assets/AllTheBooks";
-import MyFooter from "./assets/Myfooter";
-import TopBar from "./assets/myNav";
-import Welcome from "./assets/Welcome";
+import Libri from "./assets/components/AllTheBooks";
+import MyFooter from "./assets/components/Myfooter";
+import TopBar from "./assets/components/myNav";
+import Welcome from "./assets/components/Welcome";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import { Button, Card } from "react-bootstrap";
-import fantasy from "./books/fantasy.json";
+import fantasy from "../books/fantasy.json";
 import { Component } from "react";
 
 class Libri extends Component {
